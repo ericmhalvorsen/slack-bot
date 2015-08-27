@@ -2,9 +2,10 @@
   "name": "slack-bot",
   "version": "1.0.0",
   "description": "A sample program that operates a slackbot for simple tasks.",
-  "main": "main.coffee",
+  "main": "src/main.coffee",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "(coffee --compile --output dist --watch src); node ./dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,11 @@
   "homepage": "https://github.com/ericmhalvorsen/slack-bot",
   "dependencies": {
     "coffee": "^1.1.0",
+    "coffee-script": "^1.9.3",
     "node-inspector": "^0.12.2",
     "slack-client": "^1.4.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
   }
 }

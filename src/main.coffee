@@ -1,4 +1,4 @@
-Slack = require 'slack-client'
+Slack = require('slack-client')
 
 token = 'xoxb-YOUR-TOKEN-HERE' # Add a bot at https://my.slack.com/services/new/bot and copy the token here.
 autoReconnect = true
