@@ -4,7 +4,7 @@
 
   Slack = require('slack-client');
 
-  token = 'xoxb-YOUR-TOKEN-HERE';
+  token = 'xoxb-9774406144-JTzZMwZXcdRncEsEWPceoa8d';
 
   autoReconnect = true;
 
